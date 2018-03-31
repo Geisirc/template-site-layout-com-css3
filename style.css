@@ -14,72 +14,86 @@ and open the template in the editor.
 
 body{
     background-color: snow;
-    font-size: 20px;
+    font-size: 15px;
+    margin: 0 10px 0 10px;
 }
 
 #content{
-    margin: auto;
-    width: 780px;
-    height: 100%;
-    background-color: whitesmoke;
+    background-color: whitesmoke;   
+    width: 100%;
 }
 
 #header{
+    margin-top: 20px; 
     background-color: turquoise;
-    height: 20vh;
+    height: 150px;
+    padding: 15px;
+    margin-bottom: 10px;
 }
 
 #nav{
-    height: 18px;
-    padding: 10px;
-    background-color: teal;
+    height: 50px;
+    color: teal;
+    font-size: 15px;
 }
 
-#sidebar{
-    background: yellowgreen;
-    height: 70vh;
+#nav ul{
+    padding: 10px;
+    text-align: right;
+    float: right;
+    background: teal;
+}
+
+#nav li{
+    width: 300px;
+    background: teal;
+    padding: 10px;  
+}
+
+#nav ul li{
+    display: inline;
+}
+
+#nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.titulo{
+    background: cadetblue;
+    line-height: 1.5;
+    padding: 5px;
+    text-align: center;
 }
 
 #article{
     background: blue;
-    height: 90vh;
+    width: 60%;
+}
+
+.texto{
+    text-align: justify;
+    line-height: 1.2;
+    font-family: "Times new Roman", Verdana, sans-serif;
+    background: white;
+    padding: 10px;
+    margin: 0 5px 5px 5px;
+    display: inline-block;
+}
+
+#sidebar{
+    background: yellowgreen; 
+    width: 30%;
+    padding: 10px;
+    float: right;
+}
+#sidebar ul li{
+    display: inline-block;
 }
 
 #footer{
     background: cadetblue;
-    height: 30vh;
+    height: 150px;
+    padding: 15px;
 }
 
-a, ul{
-    text-decoration: none;
-    color: teal;
-    font-size: 20px;
-}
-
-ul{
-    background: teal;
-    padding: 10px 10px 4px;
-}
-
-li{
-    background-color: white;
-    padding: 10px 10px 4px;
-    
-}
-
-li:hover{
-    padding: 10px 10px 3px;
-    background: teal;
-    transition-delay: 0.5s;
-    border: solid 0.6px aqua;
-}
-
-ul, li{   
-    display: inline;
-}
-a:hover{
-    color: turquoise;
-    font-size: 19px;
-    transition-delay: 0.5s;
-    background: teal;
-}
