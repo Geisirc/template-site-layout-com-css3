@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8));
+	background-image: linear-gradient(gray, black);
+}
+
+h2, h3{
+	margin: 0;
+}
+
+.font400{
+	font-size: 4em;
+}
+
+.font300{
+	font-size: 3em;
+}
+
+.font250{
+	font-size: 2.5em;
+}
+
+.cinza-escuro{
+	color: #8c8c8c;
+}
+
+.imagem-fundo{
+	/*escurecer a imagem em degradê*/
+	background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.8)), url(https://i2.wp.com/gamelogia.com.br/wp-content/uploads/2017/06/Melhores-jogos-fps-de-2017.jpg?resize=1280%2C640&ssl=1
+);
+	background-size: cover;/*se ajustar ao tamanho da tela*/
+	background-position: center center;
+	background-repeat: no-repeat;/*não repetir a imagem*/
+	background-attachment: fixed;/*fixar imagem ao rolar o scroll*/
+	height: 100vh;
+	display: flex;
+}
+
+.titulo{
+	margin: auto;/*centralizando o header*/
+	text-align: center;
+	margin-top: -180px;
+	color: rgba(204,204,204,0.9);/* #ffff00, rgb(255, 255, 0), hsl(60, 100%, 50%)*/
+}
+
+.subtitulo{
+	font-family: 'IBM Plex Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	line-height: 0.9em;
+	font-weight: 400px;
+	text-shadow: 3px 3px 0.7px rgba(0,0,153,0.4);/*offset-x offset-y blur color -- horizontal e vertical blur e cor*/
+}
+
+.parte-superior{
+	width: 100vw;
+	height: 90px;
+	background: rgba(0,0,153,0.4);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-top: 15px;
+}
+
+.margem-img{
+	margin: 0;
+}
+
+.logo > img{
+	width: 250px;
+	height: 90px;
+}
+
+.banner-superior > img{
+	
+}
+
+.icon-facebook{
+
+}
+
+.legenda{
+	display: flex;
+}
